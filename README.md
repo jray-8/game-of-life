@@ -131,6 +131,9 @@ Click and drag over cells to toggle their state.
 
 https://github.com/user-attachments/assets/acc66ae5-e794-4514-be9f-b60ba9d6974a
 
+
+![Video](./demos/plus-1-compressed.mp4)
+
 ## Hint
 
 Try replicating this T-shape on a large grid and see what happens.
