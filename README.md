@@ -129,10 +129,7 @@ Click and drag over cells to toggle their state.
 
 ## Demo
 
-<video width="640" height="480" controls>
-  <source src="./demos/swastika-demo-compressed.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/acc66ae5-e794-4514-be9f-b60ba9d6974a
 
 ## Hint
 
