@@ -124,6 +124,10 @@ document.addEventListener('keydown', (e) => {
 			simulateButtonPress(gridlineButton);
 			toggleGridlines();
 			break;
+		case 'Escape':
+			// Lose focus on currently selected element
+			document.activeElement.blur();
+			break;
 	}
 });
 
