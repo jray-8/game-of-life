@@ -84,7 +84,7 @@ People have studied Conway's Game of Life in search of self-replicating patterns
 
 The rules for a [life-like](https://en.wikipedia.org/wiki/Life-like_cellular_automaton) cellular automaton can be compacted into the format:
 
-> `B{number list}/S{number list}`
+`B{number list}/S{number list}`
 
 This is known as birth/survival notation.
 
