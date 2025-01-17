@@ -104,8 +104,9 @@ document.addEventListener('keydown', (e) => {
 
 	switch (e.code) {
 		case 'Space':
-			// Document must have focus
-			if (e.target === document.body){
+			// Document must have focus -- or deselect input slider
+			if (e.target === document.body || e.target.tagName === 'INPUT'){
+				e.target.blur();
 				simulateButtonPress(animateButton);
 				toggleSimulation();
 			}
