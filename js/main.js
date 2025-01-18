@@ -104,12 +104,11 @@ document.addEventListener('keydown', (e) => {
 
 	switch (e.code) {
 		case 'Space':
-			// Document must have focus -- or deselect input slider
-			if (e.target === document.body || e.target.tagName === 'INPUT'){
-				e.target.blur();
-				simulateButtonPress(animateButton);
-				toggleSimulation();
-			}
+			// Shortcut overrides any other focused element
+			e.preventDefault();
+			e.target.blur();
+			simulateButtonPress(animateButton);
+			toggleSimulation();
 			break;
 		case 'KeyR':
 			stopSimulation();
