@@ -7,6 +7,7 @@ body {
 	background-color: #1a1a1a;
 	color: #ffffff;
 	font-family: Arial, sans-serif;
+	user-select: none; /* Disable text selection */
 }
 
 .control-panel {
@@ -110,7 +111,6 @@ button:active, button.active{
 	display: grid;
 	gap: 1px;
 	background-color: #474747;
-	user-select: none; /* Disable text selection */
 }
 
 /* Base styles for the cells */
