@@ -2,6 +2,8 @@
 
 A set of rules applied to some grid of cells. Each cell can have one of multiple states, and it's state for the next generation is dependent on the states of its surrounding _neighbors_ as well as its own. Each generation the grid is updated to reflect the evolution of the cells.
 
+![](assets/screenshot-1.png)
+
 What we need to know to create a new CA ecosystem:
 
 - __Universe:__
@@ -108,7 +110,7 @@ __Features:__
 
 - Randomize life on grid based on coverage (%)
 
-![Screenshot](./images/screenshot-1.png)
+![](assets/screenshot-2.png)
 
 ## Controls
 
@@ -129,7 +131,7 @@ Click and drag over cells to toggle their state.
 
 ## Demo
 
-https://github.com/user-attachments/assets/acc66ae5-e794-4514-be9f-b60ba9d6974a
+
 
 ## Hint
 
